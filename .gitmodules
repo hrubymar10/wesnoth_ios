@@ -1,7 +1,6 @@
 [submodule "lib/iOS_boost_1_60"]
 	path = lib/iOS_boost_1_60
-	url = git@github.com:singalen/ofxiOSBoost.git
-
+	url = https://github.com/singalen/ofxiOSBoost
 [submodule "lib/iOS_device_info"]
 	path = lib/iOS_device_info
 	url = https://github.com/hrubymar10/iOS_device_info
