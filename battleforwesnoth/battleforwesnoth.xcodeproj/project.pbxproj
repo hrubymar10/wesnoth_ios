@@ -631,11 +631,12 @@
 		3C5B806916399A2100898722 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 3C230030160D9E300086C5CD /* data */; };
 		3C5B806A16399A2100898722 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8C957160EB0A2004CD2C4 /* images */; };
 		3C5B806B16399A2100898722 /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = 3CC9B8951614AD4800D1110E /* sounds */; };
-		46A7A23E2113A70E00FE1EC4 /* PlistDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46A7A2352113A70E00FE1EC4 /* PlistDate.cpp */; };
-		46A7A2402113A70E00FE1EC4 /* Plist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46A7A23A2113A70E00FE1EC4 /* Plist.cpp */; };
-		46A7A2412113A70E00FE1EC4 /* pugixml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46A7A23C2113A70E00FE1EC4 /* pugixml.cpp */; };
 		46BED4E22050848B00842FA5 /* WesnothViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BED4E12050848B00842FA5 /* WesnothViewController.storyboard */; };
 		46CB5F8B205485C2008A0DB6 /* WesnothLauchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CB5F8A205485C1008A0DB6 /* WesnothLauchScreen.storyboard */; };
+		46E794802114D18D00404CA2 /* iOS_device_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E794752114D18C00404CA2 /* iOS_device_info.cpp */; };
+		46E794812114D18D00404CA2 /* Plist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E7947C2114D18D00404CA2 /* Plist.cpp */; };
+		46E794822114D18D00404CA2 /* pugixml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E7947D2114D18D00404CA2 /* pugixml.cpp */; };
+		46E794832114D18D00404CA2 /* PlistDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E7947E2114D18D00404CA2 /* PlistDate.cpp */; };
 		A69DB6D4196A676100230816 /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CBF22C01644C079008D46F4 /* libogg.a */; };
 /* End PBXBuildFile section */
 
@@ -2095,16 +2096,18 @@
 		3CFE03631608A7E000DC330D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		3CFE119B1608BE8A00DC330D /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		3CFE11A31608E29A00DC330D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		46A7A2352113A70E00FE1EC4 /* PlistDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PlistDate.cpp; path = ../../../lib/PlistCpp/src/PlistDate.cpp; sourceTree = "<group>"; };
-		46A7A2372113A70E00FE1EC4 /* PlistDate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PlistDate.hpp; path = ../../../lib/PlistCpp/src/PlistDate.hpp; sourceTree = "<group>"; };
-		46A7A2382113A70E00FE1EC4 /* base64.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = base64.hpp; path = ../../../lib/PlistCpp/src/base64.hpp; sourceTree = "<group>"; };
-		46A7A2392113A70E00FE1EC4 /* pugiconfig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = pugiconfig.hpp; path = ../../../lib/PlistCpp/src/pugiconfig.hpp; sourceTree = "<group>"; };
-		46A7A23A2113A70E00FE1EC4 /* Plist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Plist.cpp; path = ../../../lib/PlistCpp/src/Plist.cpp; sourceTree = "<group>"; };
-		46A7A23B2113A70E00FE1EC4 /* pugixml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = pugixml.hpp; path = ../../../lib/PlistCpp/src/pugixml.hpp; sourceTree = "<group>"; };
-		46A7A23C2113A70E00FE1EC4 /* pugixml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pugixml.cpp; path = ../../../lib/PlistCpp/src/pugixml.cpp; sourceTree = "<group>"; };
-		46A7A23D2113A70E00FE1EC4 /* Plist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Plist.hpp; path = ../../../lib/PlistCpp/src/Plist.hpp; sourceTree = "<group>"; };
 		46BED4E12050848B00842FA5 /* WesnothViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WesnothViewController.storyboard; sourceTree = "<group>"; };
 		46CB5F8A205485C1008A0DB6 /* WesnothLauchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WesnothLauchScreen.storyboard; sourceTree = "<group>"; };
+		46E794752114D18C00404CA2 /* iOS_device_info.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = iOS_device_info.cpp; path = ../../../lib/iOS_device_info/src/iOS_device_info.cpp; sourceTree = "<group>"; };
+		46E794762114D18C00404CA2 /* iOS_device_info.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = iOS_device_info.hpp; path = ../../../lib/iOS_device_info/src/iOS_device_info.hpp; sourceTree = "<group>"; };
+		46E794782114D18D00404CA2 /* pugiconfig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pugiconfig.hpp; sourceTree = "<group>"; };
+		46E794792114D18D00404CA2 /* Plist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Plist.hpp; sourceTree = "<group>"; };
+		46E7947A2114D18D00404CA2 /* pugixml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pugixml.hpp; sourceTree = "<group>"; };
+		46E7947B2114D18D00404CA2 /* PlistDate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PlistDate.hpp; sourceTree = "<group>"; };
+		46E7947C2114D18D00404CA2 /* Plist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plist.cpp; sourceTree = "<group>"; };
+		46E7947D2114D18D00404CA2 /* pugixml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pugixml.cpp; sourceTree = "<group>"; };
+		46E7947E2114D18D00404CA2 /* PlistDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlistDate.cpp; sourceTree = "<group>"; };
+		46E7947F2114D18D00404CA2 /* base64.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base64.hpp; sourceTree = "<group>"; };
 		A65CD528180E84900035576A /* xmlparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmlparse.c; path = "../../lib/fontconfig-2.8.0/src/xmlparse.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -2330,7 +2333,7 @@
 		1C810157E87B6FD6D2E9FA6D /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				46A7A2342113A6F400FE1EC4 /* PlistCpp */,
+				46E794742114D11500404CA2 /* iOS_device_info */,
 				1C6088252028066600F117B6 /* SDLMain.h */,
 				1C6088242028066600F117B6 /* SDLMain.mm */,
 				1C069D321EBFC3C3001FF584 /* iconv_hack.c */,
@@ -4066,19 +4069,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		46A7A2342113A6F400FE1EC4 /* PlistCpp */ = {
+		46E794742114D11500404CA2 /* iOS_device_info */ = {
 			isa = PBXGroup;
 			children = (
-				46A7A2382113A70E00FE1EC4 /* base64.hpp */,
-				46A7A23A2113A70E00FE1EC4 /* Plist.cpp */,
-				46A7A23D2113A70E00FE1EC4 /* Plist.hpp */,
-				46A7A2352113A70E00FE1EC4 /* PlistDate.cpp */,
-				46A7A2372113A70E00FE1EC4 /* PlistDate.hpp */,
-				46A7A2392113A70E00FE1EC4 /* pugiconfig.hpp */,
-				46A7A23C2113A70E00FE1EC4 /* pugixml.cpp */,
-				46A7A23B2113A70E00FE1EC4 /* pugixml.hpp */,
+				46E794752114D18C00404CA2 /* iOS_device_info.cpp */,
+				46E794762114D18C00404CA2 /* iOS_device_info.hpp */,
+				46E794772114D18D00404CA2 /* PlistCpp */,
+			);
+			name = iOS_device_info;
+			sourceTree = "<group>";
+		};
+		46E794772114D18D00404CA2 /* PlistCpp */ = {
+			isa = PBXGroup;
+			children = (
+				46E794782114D18D00404CA2 /* pugiconfig.hpp */,
+				46E794792114D18D00404CA2 /* Plist.hpp */,
+				46E7947A2114D18D00404CA2 /* pugixml.hpp */,
+				46E7947B2114D18D00404CA2 /* PlistDate.hpp */,
+				46E7947C2114D18D00404CA2 /* Plist.cpp */,
+				46E7947D2114D18D00404CA2 /* pugixml.cpp */,
+				46E7947E2114D18D00404CA2 /* PlistDate.cpp */,
+				46E7947F2114D18D00404CA2 /* base64.hpp */,
 			);
 			name = PlistCpp;
+			path = ../../../lib/iOS_device_info/src/PlistCpp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -4368,7 +4382,6 @@
 				1C8C210F20919AAF00219503 /* lmathlib.cpp in Sources */,
 				1C6696951EDDD2E000F23301 /* unit_palette.cpp in Sources */,
 				1CEF14B41EC022B200C02850 /* game_load.cpp in Sources */,
-				46A7A2412113A70E00FE1EC4 /* pugixml.cpp in Sources */,
 				1C8C210020919AAF00219503 /* llex.cpp in Sources */,
 				1CEF16961EC022F900C02850 /* lua_unit.cpp in Sources */,
 				1CEF10551EC00F9D00C02850 /* teambuilder.cpp in Sources */,
@@ -4572,6 +4585,7 @@
 				1CEF12021EC0213F00C02850 /* stage_unit_formulas.cpp in Sources */,
 				3C5B800B16399A2100898722 /* fcatomic.c in Sources */,
 				1CA9ABAD1FC807B900D25658 /* point.cpp in Sources */,
+				46E794832114D18D00404CA2 /* PlistDate.cpp in Sources */,
 				1CEF14BA1EC022B200C02850 /* game_version.cpp in Sources */,
 				1C6696901EDDD2E000F23301 /* item_palette.cpp in Sources */,
 				3C5B800C16399A2100898722 /* fcblanks.c in Sources */,
@@ -4738,6 +4752,7 @@
 				1CEF14D61EC022B200C02850 /* faction_select.cpp in Sources */,
 				1CEF12981EC0222000C02850 /* debugger_fwd.cpp in Sources */,
 				1CEF101C1EC00F4500C02850 /* replay.cpp in Sources */,
+				46E794812114D18D00404CA2 /* Plist.cpp in Sources */,
 				1CEF14D21EC022B200C02850 /* modal_dialog.cpp in Sources */,
 				1CEF0FE11EC00EA700C02850 /* persist_var.cpp in Sources */,
 				1CEF179E1EC0233900C02850 /* scrollarea.cpp in Sources */,
@@ -4781,6 +4796,7 @@
 				1CEF11EC1EC0213F00C02850 /* ca_move_to_targets.cpp in Sources */,
 				1CEF0FD31EC00EA700C02850 /* mp_game_settings.cpp in Sources */,
 				1CEF11DC1EC0213F00C02850 /* goal.cpp in Sources */,
+				46E794802114D18D00404CA2 /* iOS_device_info.cpp in Sources */,
 				1CEF14821EC022B200C02850 /* campaign_selection.cpp in Sources */,
 				1CEF11D21EC0213F00C02850 /* ai.cpp in Sources */,
 				1CEF12181EC0213F00C02850 /* testing.cpp in Sources */,
@@ -4804,7 +4820,6 @@
 				1CEF105D1EC00F9D00C02850 /* tooltips.cpp in Sources */,
 				1CEF161B1EC022DD00C02850 /* label.cpp in Sources */,
 				1CEF0FCD1EC00EA700C02850 /* mouse_events.cpp in Sources */,
-				46A7A23E2113A70E00FE1EC4 /* PlistDate.cpp in Sources */,
 				1CEF11E81EC0213F00C02850 /* attack.cpp in Sources */,
 				1CEF15021EC022B200C02850 /* terrain_layers.cpp in Sources */,
 				1CEF153E1EC022B200C02850 /* multi_page.cpp in Sources */,
@@ -4844,7 +4859,6 @@
 				1C6696981EDDD39800F23301 /* mouse_action.cpp in Sources */,
 				1C6696821EDDD2BE00F23301 /* editor_display.cpp in Sources */,
 				1CEF0F811EC00D2600C02850 /* game_launcher.cpp in Sources */,
-				46A7A2402113A70E00FE1EC4 /* Plist.cpp in Sources */,
 				1CEF120C1EC0213F00C02850 /* engine_lua.cpp in Sources */,
 				1CEF15541EC022B200C02850 /* size_lock.cpp in Sources */,
 				1C810ED12DF94E7822B9F61B /* display_chat_manager.cpp in Sources */,
@@ -4924,6 +4938,7 @@
 				1CEF129C1EC0222000C02850 /* function.cpp in Sources */,
 				1CEF111B1EC0211000C02850 /* clipboard.cpp in Sources */,
 				1CEF148E1EC022B200C02850 /* depcheck_select_new.cpp in Sources */,
+				46E794822114D18D00404CA2 /* pugixml.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5049,7 +5064,7 @@
 				);
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../lib/PlistCpp/src\"",
+					"\"$(SRCROOT)/../lib/iOS_device_info/src\"",
 					"\"$(SRCROOT)/../lib/SDL_net/include\"",
 					"\"$(SRCROOT)/../lib/SDL2_ttf-2.0.14\"",
 					"\"$(SRCROOT)/../lib/SDL_gfx/include\"",
@@ -5153,7 +5168,7 @@
 				);
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../lib/PlistCpp/src\"",
+					"\"$(SRCROOT)/../lib/iOS_device_info/src\"",
 					"\"$(SRCROOT)/../lib/SDL_net/include\"",
 					"\"$(SRCROOT)/../lib/SDL2_ttf-2.0.14\"",
 					"\"$(SRCROOT)/../lib/SDL_gfx/include\"",
