@@ -2098,6 +2098,7 @@
 		3CFE11A31608E29A00DC330D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		46BED4E12050848B00842FA5 /* WesnothViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WesnothViewController.storyboard; sourceTree = "<group>"; };
 		46CB5F8A205485C1008A0DB6 /* WesnothLauchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WesnothLauchScreen.storyboard; sourceTree = "<group>"; };
+		46D9C50A2118B6360047AB0A /* revision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = revision.h; path = ../../../../src/revision.h; sourceTree = "<group>"; };
 		46E794752114D18C00404CA2 /* iOS_device_info.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = iOS_device_info.cpp; path = ../../../lib/iOS_device_info/src/iOS_device_info.cpp; sourceTree = "<group>"; };
 		46E794762114D18C00404CA2 /* iOS_device_info.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = iOS_device_info.hpp; path = ../../../lib/iOS_device_info/src/iOS_device_info.hpp; sourceTree = "<group>"; };
 		46E794782114D18D00404CA2 /* pugiconfig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pugiconfig.hpp; sourceTree = "<group>"; };
@@ -3814,6 +3815,7 @@
 				1CEF10D21EC01F4D00C02850 /* reports.hpp */,
 				1CEF0FFB1EC00F4400C02850 /* resources.cpp */,
 				1CEF10D31EC01F4D00C02850 /* resources.hpp */,
+				46D9C50A2118B6360047AB0A /* revision.h */,
 				1CEF0FFC1EC00F4400C02850 /* save_blocker.cpp */,
 				1CEF10D41EC01F4D00C02850 /* save_blocker.hpp */,
 				1CEF0FFD1EC00F4400C02850 /* save_index.cpp */,
@@ -5061,6 +5063,7 @@
 					MOD_MUSIC,
 					MID_MUSI,
 					USE_TIMIDITY_MIDI,
+					"LOAD_REVISION=1",
 				);
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
