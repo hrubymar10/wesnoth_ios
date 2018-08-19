@@ -1,3 +1,6 @@
 [submodule "lib/iOS_device_info"]
 	path = lib/iOS_device_info
 	url = https://github.com/hrubymar10/iOS_device_info
+[submodule "lib/iOS_boost"]
+	path = lib/iOS_boost
+	url = https://github.com/hrubymar10/ofxiOSBoost
