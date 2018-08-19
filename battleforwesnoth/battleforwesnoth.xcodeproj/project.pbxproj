@@ -875,7 +875,7 @@
 		1C178AAD1FA6B42D00707D15 /* lobby.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lobby.cpp; sourceTree = "<group>"; };
 		1C178AB01FA6B4A500707D15 /* slider_base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = slider_base.hpp; sourceTree = "<group>"; };
 		1C178AB11FA6B4A700707D15 /* slider_base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = slider_base.cpp; sourceTree = "<group>"; };
-		1C20DB9C1E11E23B00D7BE84 /* libboost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost.a; path = ../lib/iOS_boost_1_60/libs/boost/ios/libboost.a; sourceTree = "<group>"; };
+		1C20DB9C1E11E23B00D7BE84 /* libboost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost.a; path = ../lib/iOS_boost/libs/boost/ios/libboost.a; sourceTree = "<group>"; };
 		1C20DBA91E11F92600D7BE84 /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
 		1C29BBF31E5A147000A701E9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1C29BBF51E5A175C00A701E9 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
@@ -5098,7 +5098,7 @@
 					"\"$(SRCROOT)/../lib/libogg-1.3.1/include\"",
 					"\"$(SRCROOT)/../lib/tremor/include\"",
 					"\"$(SRCROOT)/../../../src/boost-patched\"",
-					"\"$(SRCROOT)/../lib/iOS_boost_1_60/libs/boost/include\"",
+					"\"$(SRCROOT)/../lib/iOS_boost/libs/boost/include\"",
 					"\"$(SRCROOT)/battleforwesnoth\"",
 				);
 				INFOPLIST_FILE = Info.plist;
@@ -5128,7 +5128,7 @@
 					"\"$(SRCROOT)/../lib/xml2\"",
 					"\"$(SRCROOT)/../lib/mikmod\"",
 					"\"$(SRCROOT)/../lib/SDL_image\"",
-					"\"$(SRCROOT)/../lib/iOS_Boost_1_60/libs/boost/ios\"",
+					"\"$(SRCROOT)/../lib/iOS_boost/libs/boost/ios\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
@@ -5202,7 +5202,7 @@
 					"\"$(SRCROOT)/../lib/libogg-1.3.1/include\"",
 					"\"$(SRCROOT)/../lib/tremor/include\"",
 					"\"$(SRCROOT)/../../../src/boost-patched\"",
-					"\"$(SRCROOT)/../lib/iOS_boost_1_60/libs/boost/include\"",
+					"\"$(SRCROOT)/../lib/iOS_boost/libs/boost/include\"",
 					"\"$(SRCROOT)/battleforwesnoth\"",
 				);
 				INFOPLIST_FILE = Info.plist;
@@ -5232,7 +5232,7 @@
 					"\"$(SRCROOT)/../lib/xml2\"",
 					"\"$(SRCROOT)/../lib/mikmod\"",
 					"\"$(SRCROOT)/../lib/SDL_image\"",
-					"\"$(SRCROOT)/../lib/iOS_Boost_1_60/libs/boost/ios\"",
+					"\"$(SRCROOT)/../lib/iOS_boost/libs/boost/ios\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
