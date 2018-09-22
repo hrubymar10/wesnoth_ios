@@ -632,6 +632,8 @@
 		3C5B806A16399A2100898722 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 3CA8C957160EB0A2004CD2C4 /* images */; };
 		3C5B806B16399A2100898722 /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = 3CC9B8951614AD4800D1110E /* sounds */; };
 		46054A542128DA300083FD71 /* apple_version.mm in Sources */ = {isa = PBXBuildFile; fileRef = 46054A522128DA300083FD71 /* apple_version.mm */; };
+		469365B0215681B000B31412 /* apple_battery_info.mm in Sources */ = {isa = PBXBuildFile; fileRef = 469365A8215681AF00B31412 /* apple_battery_info.mm */; };
+		469365B3215681BE00B31412 /* battery_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 469365B2215681BD00B31412 /* battery_info.cpp */; };
 		46BED4E22050848B00842FA5 /* WesnothViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BED4E12050848B00842FA5 /* WesnothViewController.storyboard */; };
 		46CB5F8B205485C2008A0DB6 /* WesnothLauchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CB5F8A205485C1008A0DB6 /* WesnothLauchScreen.storyboard */; };
 		46E794802114D18D00404CA2 /* iOS_device_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E794752114D18C00404CA2 /* iOS_device_info.cpp */; };
@@ -2099,6 +2101,10 @@
 		3CFE11A31608E29A00DC330D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		46054A522128DA300083FD71 /* apple_version.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = apple_version.mm; path = ../../../../src/desktop/apple_version.mm; sourceTree = "<group>"; };
 		46054A532128DA300083FD71 /* apple_version.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = apple_version.hpp; path = ../../../../src/desktop/apple_version.hpp; sourceTree = "<group>"; };
+		469365A8215681AF00B31412 /* apple_battery_info.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = apple_battery_info.mm; path = ../../../../src/desktop/apple_battery_info.mm; sourceTree = "<group>"; };
+		469365AF215681AF00B31412 /* apple_battery_info.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = apple_battery_info.hpp; path = ../../../../src/desktop/apple_battery_info.hpp; sourceTree = "<group>"; };
+		469365B1215681BD00B31412 /* battery_info.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = battery_info.hpp; path = ../../../../src/desktop/battery_info.hpp; sourceTree = "<group>"; };
+		469365B2215681BD00B31412 /* battery_info.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = battery_info.cpp; path = ../../../../src/desktop/battery_info.cpp; sourceTree = "<group>"; };
 		46BED4E12050848B00842FA5 /* WesnothViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WesnothViewController.storyboard; sourceTree = "<group>"; };
 		46CB5F8A205485C1008A0DB6 /* WesnothLauchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WesnothLauchScreen.storyboard; sourceTree = "<group>"; };
 		46D9C50A2118B6360047AB0A /* revision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = revision.h; path = ../../../../src/revision.h; sourceTree = "<group>"; };
@@ -2179,10 +2185,14 @@
 		1C29BBFB1E5A325600A701E9 /* desktop */ = {
 			isa = PBXGroup;
 			children = (
+				469365AF215681AF00B31412 /* apple_battery_info.hpp */,
+				469365A8215681AF00B31412 /* apple_battery_info.mm */,
 				1CEF110C1EC0211000C02850 /* apple_notification.hpp */,
 				1CEF110D1EC0211000C02850 /* apple_notification.mm */,
 				46054A532128DA300083FD71 /* apple_version.hpp */,
 				46054A522128DA300083FD71 /* apple_version.mm */,
+				469365B2215681BD00B31412 /* battery_info.cpp */,
+				469365B1215681BD00B31412 /* battery_info.hpp */,
 				1CEF110E1EC0211000C02850 /* clipboard.cpp */,
 				1CEF110F1EC0211000C02850 /* clipboard.hpp */,
 				1CEF11101EC0211000C02850 /* notifications.cpp */,
@@ -3583,6 +3593,7 @@
 				3C8A3651160766FD0017F0EE /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		3C8A3651160766FD0017F0EE /* Products */ = {
 			isa = PBXGroup;
@@ -4694,6 +4705,7 @@
 				1CEF144A1EC022B100C02850 /* iterator.cpp in Sources */,
 				1CEF14541EC022B100C02850 /* tips.cpp in Sources */,
 				1C6696871EDDD2C800F23301 /* action_select.cpp in Sources */,
+				469365B3215681BE00B31412 /* battery_info.cpp in Sources */,
 				1CEF175C1EC0233900C02850 /* animation_component.cpp in Sources */,
 				1CEF12BA1EC0222000C02850 /* connect_engine.cpp in Sources */,
 				1C66968E1EDDD2D600F23301 /* map_fragment.cpp in Sources */,
@@ -4856,6 +4868,7 @@
 				1CEF167A1EC022F900C02850 /* application_lua_kernel.cpp in Sources */,
 				1CEF15661EC022B200C02850 /* tree_view.cpp in Sources */,
 				1CEF16F31EC0231800C02850 /* type_data.cpp in Sources */,
+				469365B0215681B000B31412 /* apple_battery_info.mm in Sources */,
 				1CEF11C61EC0213F00C02850 /* info.cpp in Sources */,
 				1CEF10301EC00F4500C02850 /* side_filter.cpp in Sources */,
 				1CEF15441EC022B200C02850 /* password_box.cpp in Sources */,
