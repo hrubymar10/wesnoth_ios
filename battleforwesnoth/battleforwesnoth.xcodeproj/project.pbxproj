@@ -637,9 +637,6 @@
 		46BED4E22050848B00842FA5 /* WesnothViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BED4E12050848B00842FA5 /* WesnothViewController.storyboard */; };
 		46CB5F8B205485C2008A0DB6 /* WesnothLauchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CB5F8A205485C1008A0DB6 /* WesnothLauchScreen.storyboard */; };
 		46E794802114D18D00404CA2 /* iOS_device_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E794752114D18C00404CA2 /* iOS_device_info.cpp */; };
-		46E794812114D18D00404CA2 /* Plist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E7947C2114D18D00404CA2 /* Plist.cpp */; };
-		46E794822114D18D00404CA2 /* pugixml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E7947D2114D18D00404CA2 /* pugixml.cpp */; };
-		46E794832114D18D00404CA2 /* PlistDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E7947E2114D18D00404CA2 /* PlistDate.cpp */; };
 		A69DB6D4196A676100230816 /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CBF22C01644C079008D46F4 /* libogg.a */; };
 /* End PBXBuildFile section */
 
@@ -2110,14 +2107,6 @@
 		46D9C50A2118B6360047AB0A /* revision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = revision.h; path = ../../../../src/revision.h; sourceTree = "<group>"; };
 		46E794752114D18C00404CA2 /* iOS_device_info.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = iOS_device_info.cpp; path = ../../../lib/iOS_device_info/src/iOS_device_info.cpp; sourceTree = "<group>"; };
 		46E794762114D18C00404CA2 /* iOS_device_info.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = iOS_device_info.hpp; path = ../../../lib/iOS_device_info/src/iOS_device_info.hpp; sourceTree = "<group>"; };
-		46E794782114D18D00404CA2 /* pugiconfig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pugiconfig.hpp; sourceTree = "<group>"; };
-		46E794792114D18D00404CA2 /* Plist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Plist.hpp; sourceTree = "<group>"; };
-		46E7947A2114D18D00404CA2 /* pugixml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pugixml.hpp; sourceTree = "<group>"; };
-		46E7947B2114D18D00404CA2 /* PlistDate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PlistDate.hpp; sourceTree = "<group>"; };
-		46E7947C2114D18D00404CA2 /* Plist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plist.cpp; sourceTree = "<group>"; };
-		46E7947D2114D18D00404CA2 /* pugixml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pugixml.cpp; sourceTree = "<group>"; };
-		46E7947E2114D18D00404CA2 /* PlistDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlistDate.cpp; sourceTree = "<group>"; };
-		46E7947F2114D18D00404CA2 /* base64.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base64.hpp; sourceTree = "<group>"; };
 		A65CD528180E84900035576A /* xmlparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmlparse.c; path = "../../lib/fontconfig-2.8.0/src/xmlparse.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -4092,25 +4081,8 @@
 			children = (
 				46E794752114D18C00404CA2 /* iOS_device_info.cpp */,
 				46E794762114D18C00404CA2 /* iOS_device_info.hpp */,
-				46E794772114D18D00404CA2 /* PlistCpp */,
 			);
 			name = iOS_device_info;
-			sourceTree = "<group>";
-		};
-		46E794772114D18D00404CA2 /* PlistCpp */ = {
-			isa = PBXGroup;
-			children = (
-				46E794782114D18D00404CA2 /* pugiconfig.hpp */,
-				46E794792114D18D00404CA2 /* Plist.hpp */,
-				46E7947A2114D18D00404CA2 /* pugixml.hpp */,
-				46E7947B2114D18D00404CA2 /* PlistDate.hpp */,
-				46E7947C2114D18D00404CA2 /* Plist.cpp */,
-				46E7947D2114D18D00404CA2 /* pugixml.cpp */,
-				46E7947E2114D18D00404CA2 /* PlistDate.cpp */,
-				46E7947F2114D18D00404CA2 /* base64.hpp */,
-			);
-			name = PlistCpp;
-			path = ../../../lib/iOS_device_info/src/PlistCpp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -4604,7 +4576,6 @@
 				1CEF12021EC0213F00C02850 /* stage_unit_formulas.cpp in Sources */,
 				3C5B800B16399A2100898722 /* fcatomic.c in Sources */,
 				1CA9ABAD1FC807B900D25658 /* point.cpp in Sources */,
-				46E794832114D18D00404CA2 /* PlistDate.cpp in Sources */,
 				1CEF14BA1EC022B200C02850 /* game_version_dialog.cpp in Sources */,
 				1C6696901EDDD2E000F23301 /* item_palette.cpp in Sources */,
 				3C5B800C16399A2100898722 /* fcblanks.c in Sources */,
@@ -4772,7 +4743,6 @@
 				1CEF14D61EC022B200C02850 /* faction_select.cpp in Sources */,
 				1CEF12981EC0222000C02850 /* debugger_fwd.cpp in Sources */,
 				1CEF101C1EC00F4500C02850 /* replay.cpp in Sources */,
-				46E794812114D18D00404CA2 /* Plist.cpp in Sources */,
 				1CEF14D21EC022B200C02850 /* modal_dialog.cpp in Sources */,
 				1CEF0FE11EC00EA700C02850 /* persist_var.cpp in Sources */,
 				1CEF179E1EC0233900C02850 /* scrollarea.cpp in Sources */,
@@ -4959,7 +4929,6 @@
 				1CEF129C1EC0222000C02850 /* function.cpp in Sources */,
 				1CEF111B1EC0211000C02850 /* clipboard.cpp in Sources */,
 				1CEF148E1EC022B200C02850 /* depcheck_select_new.cpp in Sources */,
-				46E794822114D18D00404CA2 /* pugixml.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
