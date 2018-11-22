@@ -26,10 +26,6 @@
 		1C178AAF1FA6B42E00707D15 /* lobby.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C178AAD1FA6B42D00707D15 /* lobby.cpp */; };
 		1C178AB21FA6B4A700707D15 /* slider_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C178AB11FA6B4A700707D15 /* slider_base.cpp */; };
 		1C20DB9D1E11E23B00D7BE84 /* libboost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C20DB9C1E11E23B00D7BE84 /* libboost.a */; };
-		1C20DB9F1E11E57600D7BE84 /* libSDL2_image.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDFD9C51E1052C000E48A19 /* libSDL2_image.a */; };
-		1C20DBA01E11E57600D7BE84 /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDFD9CB1E1052D100E48A19 /* libSDL2_mixer.a */; };
-		1C20DBA11E11E57600D7BE84 /* libSDL2_ttf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDFD9D11E1052E600E48A19 /* libSDL2_ttf.a */; };
-		1C20DBA21E11E57600D7BE84 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDFD9BD1E10529800E48A19 /* libSDL2.a */; };
 		1C20DBB01E12362900D7BE84 /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C20DBA91E11F92600D7BE84 /* Appirater.m */; };
 		1C29BBF41E5A147000A701E9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C29BBF31E5A147000A701E9 /* SystemConfiguration.framework */; };
 		1C29BBF61E5A175C00A701E9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C29BBF51E5A175C00A701E9 /* ImageIO.framework */; };
@@ -633,6 +629,11 @@
 		469365B0215681B000B31412 /* apple_battery_info.mm in Sources */ = {isa = PBXBuildFile; fileRef = 469365A8215681AF00B31412 /* apple_battery_info.mm */; };
 		469365B3215681BE00B31412 /* battery_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 469365B2215681BD00B31412 /* battery_info.cpp */; };
 		4697659C21A6C96900CC5F8E /* crypt_blowfish.c in Sources */ = {isa = PBXBuildFile; fileRef = 4697659A21A6C96900CC5F8E /* crypt_blowfish.c */; };
+		4698208F21A6F2E900B81C61 /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4698208B21A6F2E800B81C61 /* libSDL2_mixer.a */; };
+		4698209021A6F2E900B81C61 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4698208C21A6F2E900B81C61 /* libSDL2.a */; };
+		4698209121A6F2E900B81C61 /* libSDL2_ttf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4698208D21A6F2E900B81C61 /* libSDL2_ttf.a */; };
+		4698209221A6F2E900B81C61 /* libSDL2_image.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4698208E21A6F2E900B81C61 /* libSDL2_image.a */; };
+		469820D621A6FA5E00B81C61 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469820D521A6FA5D00B81C61 /* GameController.framework */; };
 		46BED4E22050848B00842FA5 /* WesnothViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BED4E12050848B00842FA5 /* WesnothViewController.storyboard */; };
 		46CB5F8B205485C2008A0DB6 /* WesnothLauchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CB5F8A205485C1008A0DB6 /* WesnothLauchScreen.storyboard */; };
 		46E794802114D18D00404CA2 /* iOS_device_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E794752114D18C00404CA2 /* iOS_device_info.cpp */; };
@@ -640,41 +641,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1CDFD9BC1E10529800E48A19 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1CDFD9B61E10529800E48A19 /* SDL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FD6526630DE8FCCB002AD96B;
-			remoteInfo = libSDL;
-		};
-		1CDFD9BE1E10529800E48A19 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1CDFD9B61E10529800E48A19 /* SDL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FAB598141BB5C1B100BE72C5;
-			remoteInfo = "libSDL-tv";
-		};
-		1CDFD9C41E1052C000E48A19 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1CDFD9C01E1052BF00E48A19 /* SDL_image.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BE1FA74107AF4C45004B6283;
-			remoteInfo = libSDL_image;
-		};
-		1CDFD9CA1E1052D100E48A19 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1CDFD9C61E1052D100E48A19 /* SDL_mixer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BE1FA95407AF96B2004B6283;
-			remoteInfo = "Static Library";
-		};
-		1CDFD9D01E1052E600E48A19 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1CDFD9CC1E1052E500E48A19 /* SDL_ttf.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BE48FD6E07AFA17000BB41DA;
-			remoteInfo = "Static Library";
-		};
 		3C97BF241631BB0800BFE895 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3C97BF201631BB0700BFE895 /* mikmod.xcodeproj */;
@@ -1060,10 +1026,6 @@
 		1CA9ABAE1FC8094100D25658 /* make.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = make.cpp; sourceTree = "<group>"; };
 		1CA9ABAF1FC8094100D25658 /* make.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = make.hpp; sourceTree = "<group>"; };
 		1CA9ABB21FC81B9F00D25658 /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
-		1CDFD9B61E10529800E48A19 /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = "../lib/SDL2-2.0.5/Xcode-iOS/SDL/SDL.xcodeproj"; sourceTree = "<group>"; };
-		1CDFD9C01E1052BF00E48A19 /* SDL_image.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL_image.xcodeproj; path = "../lib/SDL2_image-2.0.1/Xcode-iOS/SDL_image.xcodeproj"; sourceTree = "<group>"; };
-		1CDFD9C61E1052D100E48A19 /* SDL_mixer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL_mixer.xcodeproj; path = "../lib/SDL2_mixer-2.0.1/Xcode-iOS/SDL_mixer.xcodeproj"; sourceTree = "<group>"; };
-		1CDFD9CC1E1052E500E48A19 /* SDL_ttf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL_ttf.xcodeproj; path = "../lib/SDL2_ttf-2.0.14/Xcode-iOS/SDL_ttf.xcodeproj"; sourceTree = "<group>"; };
 		1CEF0F451EC00C4500C02850 /* display_context.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = display_context.cpp; path = ../../../../src/display_context.cpp; sourceTree = "<group>"; };
 		1CEF0F461EC00C4500C02850 /* display.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = display.cpp; path = ../../../../src/display.cpp; sourceTree = "<group>"; };
 		1CEF0F4B1EC00C7700C02850 /* events.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = events.cpp; path = ../../../../src/events.cpp; sourceTree = "<group>"; };
@@ -2099,6 +2061,11 @@
 		469365B2215681BD00B31412 /* battery_info.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = battery_info.cpp; path = ../../../../src/desktop/battery_info.cpp; sourceTree = "<group>"; };
 		4697659921A6C96900CC5F8E /* crypt_blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt_blowfish.h; sourceTree = "<group>"; };
 		4697659A21A6C96900CC5F8E /* crypt_blowfish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypt_blowfish.c; sourceTree = "<group>"; };
+		4698208B21A6F2E800B81C61 /* libSDL2_mixer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2_mixer.a; path = ../lib/libSDL2_mixer.a; sourceTree = "<group>"; };
+		4698208C21A6F2E900B81C61 /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2.a; path = ../lib/libSDL2.a; sourceTree = "<group>"; };
+		4698208D21A6F2E900B81C61 /* libSDL2_ttf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2_ttf.a; path = ../lib/libSDL2_ttf.a; sourceTree = "<group>"; };
+		4698208E21A6F2E900B81C61 /* libSDL2_image.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2_image.a; path = ../lib/libSDL2_image.a; sourceTree = "<group>"; };
+		469820D521A6FA5D00B81C61 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
 		46BED4E12050848B00842FA5 /* WesnothViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WesnothViewController.storyboard; sourceTree = "<group>"; };
 		46CB5F8A205485C1008A0DB6 /* WesnothLauchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WesnothLauchScreen.storyboard; sourceTree = "<group>"; };
 		46D9C50A2118B6360047AB0A /* revision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = revision.h; path = ../../../../src/revision.h; sourceTree = "<group>"; };
@@ -2112,6 +2079,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				469820D621A6FA5E00B81C61 /* GameController.framework in Frameworks */,
 				1C7B379A1E5C132700F58FE8 /* libbz2.tbd in Frameworks */,
 				1C7B37981E5C128B00F58FE8 /* libz.1.2.8.tbd in Frameworks */,
 				1C14268E1E5A84310044633F /* CoreMotion.framework in Frameworks */,
@@ -2120,12 +2088,8 @@
 				1C069D271EBFC346001FF584 /* libasprintf.a in Frameworks */,
 				1C29BBF61E5A175C00A701E9 /* ImageIO.framework in Frameworks */,
 				1C29BBF41E5A147000A701E9 /* SystemConfiguration.framework in Frameworks */,
-				1C20DB9F1E11E57600D7BE84 /* libSDL2_image.a in Frameworks */,
-				1C20DBA01E11E57600D7BE84 /* libSDL2_mixer.a in Frameworks */,
 				1C069D291EBFC350001FF584 /* libffi.a in Frameworks */,
 				1C069D2D1EBFC361001FF584 /* libgmodule-2.0.a in Frameworks */,
-				1C20DBA11E11E57600D7BE84 /* libSDL2_ttf.a in Frameworks */,
-				1C20DBA21E11E57600D7BE84 /* libSDL2.a in Frameworks */,
 				1C20DB9D1E11E23B00D7BE84 /* libboost.a in Frameworks */,
 				A69DB6D4196A676100230816 /* libogg.a in Frameworks */,
 				3C5B804616399A2100898722 /* libjpeg.a in Frameworks */,
@@ -2147,6 +2111,10 @@
 				1C069D301EBFC36B001FF584 /* libiconv.a in Frameworks */,
 				3C5B805516399A2100898722 /* CoreGraphics.framework in Frameworks */,
 				1C069D2A1EBFC355001FF584 /* libgettextpo.a in Frameworks */,
+				4698208F21A6F2E900B81C61 /* libSDL2_mixer.a in Frameworks */,
+				4698209021A6F2E900B81C61 /* libSDL2.a in Frameworks */,
+				4698209121A6F2E900B81C61 /* libSDL2_ttf.a in Frameworks */,
+				4698209221A6F2E900B81C61 /* libSDL2_image.a in Frameworks */,
 				3C5B805616399A2100898722 /* OpenGLES.framework in Frameworks */,
 				1C069D281EBFC34C001FF584 /* libcharset.a in Frameworks */,
 				1C069D2B1EBFC359001FF584 /* libgio-2.0.a in Frameworks */,
@@ -2345,39 +2313,6 @@
 			);
 			name = pango;
 			path = font/pango;
-			sourceTree = "<group>";
-		};
-		1CDFD9B71E10529800E48A19 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1CDFD9BD1E10529800E48A19 /* libSDL2.a */,
-				1CDFD9BF1E10529800E48A19 /* libSDL2.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1CDFD9C11E1052BF00E48A19 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1CDFD9C51E1052C000E48A19 /* libSDL2_image.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1CDFD9C71E1052D100E48A19 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1CDFD9CB1E1052D100E48A19 /* libSDL2_mixer.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1CDFD9CD1E1052E500E48A19 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1CDFD9D11E1052E600E48A19 /* libSDL2_ttf.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		1CEF11241EC0213E00C02850 /* actions */ = {
@@ -3543,10 +3478,6 @@
 		3C8A3645160766FD0017F0EE = {
 			isa = PBXGroup;
 			children = (
-				1CDFD9CC1E1052E500E48A19 /* SDL_ttf.xcodeproj */,
-				1CDFD9C61E1052D100E48A19 /* SDL_mixer.xcodeproj */,
-				1CDFD9C01E1052BF00E48A19 /* SDL_image.xcodeproj */,
-				1CDFD9B61E10529800E48A19 /* SDL.xcodeproj */,
 				3CBF22BB1644C078008D46F4 /* ogg.xcodeproj */,
 				3C97C1371631CB0C00BFE895 /* png.xcodeproj */,
 				3C97C1151631CAC300BFE895 /* jpeg.xcodeproj */,
@@ -3581,6 +3512,11 @@
 		3C8A3653160766FD0017F0EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				469820D521A6FA5D00B81C61 /* GameController.framework */,
+				4698208E21A6F2E900B81C61 /* libSDL2_image.a */,
+				4698208B21A6F2E800B81C61 /* libSDL2_mixer.a */,
+				4698208D21A6F2E900B81C61 /* libSDL2_ttf.a */,
+				4698208C21A6F2E900B81C61 /* libSDL2.a */,
 				1C069D001EBFB4DD001FF584 /* libasprintf.a */,
 				1C069D011EBFB4DD001FF584 /* libcharset.a */,
 				1C069D021EBFB4DD001FF584 /* libffi.a */,
@@ -4174,22 +4110,6 @@
 					ProjectRef = 3C97C1371631CB0C00BFE895 /* png.xcodeproj */;
 				},
 				{
-					ProductGroup = 1CDFD9B71E10529800E48A19 /* Products */;
-					ProjectRef = 1CDFD9B61E10529800E48A19 /* SDL.xcodeproj */;
-				},
-				{
-					ProductGroup = 1CDFD9C11E1052BF00E48A19 /* Products */;
-					ProjectRef = 1CDFD9C01E1052BF00E48A19 /* SDL_image.xcodeproj */;
-				},
-				{
-					ProductGroup = 1CDFD9C71E1052D100E48A19 /* Products */;
-					ProjectRef = 1CDFD9C61E1052D100E48A19 /* SDL_mixer.xcodeproj */;
-				},
-				{
-					ProductGroup = 1CDFD9CD1E1052E500E48A19 /* Products */;
-					ProjectRef = 1CDFD9CC1E1052E500E48A19 /* SDL_ttf.xcodeproj */;
-				},
-				{
 					ProductGroup = 3CD06D1C1631B6780014DBBB /* Products */;
 					ProjectRef = 3CD06D1B1631B6780014DBBB /* tremor.xcodeproj */;
 				},
@@ -4206,41 +4126,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		1CDFD9BD1E10529800E48A19 /* libSDL2.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSDL2.a;
-			remoteRef = 1CDFD9BC1E10529800E48A19 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1CDFD9BF1E10529800E48A19 /* libSDL2.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSDL2.a;
-			remoteRef = 1CDFD9BE1E10529800E48A19 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1CDFD9C51E1052C000E48A19 /* libSDL2_image.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSDL2_image.a;
-			remoteRef = 1CDFD9C41E1052C000E48A19 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1CDFD9CB1E1052D100E48A19 /* libSDL2_mixer.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSDL2_mixer.a;
-			remoteRef = 1CDFD9CA1E1052D100E48A19 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1CDFD9D11E1052E600E48A19 /* libSDL2_ttf.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSDL2_ttf.a;
-			remoteRef = 1CDFD9D01E1052E600E48A19 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		3C97BF251631BB0800BFE895 /* libmikmod.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -5062,9 +4947,10 @@
 					"\"$(SRCROOT)/../lib/include\"",
 					"\"$(SRCROOT)/../lib/include/glib\"",
 					"\"$(SRCROOT)/../lib/include/gettext\"",
+					"\"$(SRCROOT)/../lib/include/SDL2\"",
+					"\"$(SRCROOT)/../lib/include/SDL2/SDL2\"",
 					"\"$(SRCROOT)/../lib/pango-1.28.3\"",
 					"\"$(SRCROOT)/../lib/pango-1.28.3/include\"",
-					"\"$(SRCROOT)/../lib/SDL2-2.0.5/include\"",
 					"\"$(SRCROOT)/../lib/SDL_blitpool/include\"",
 					"\"$(SRCROOT)/../lib/freetype-2.4.12/include\"",
 					"\"$(SRCROOT)/../lib/xml2/include\"",
@@ -5106,6 +4992,7 @@
 					"\"$(SRCROOT)/../lib/mikmod\"",
 					"\"$(SRCROOT)/../lib/SDL_image\"",
 					"\"$(SRCROOT)/../lib/iOS_Boost_1_60/libs/boost/ios\"",
+					"\"$(SRCROOT)/../lib\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
@@ -5166,9 +5053,10 @@
 					"\"$(SRCROOT)/../lib/include\"",
 					"\"$(SRCROOT)/../lib/include/glib\"",
 					"\"$(SRCROOT)/../lib/include/gettext\"",
+					"\"$(SRCROOT)/../lib/include/SDL2\"",
+					"\"$(SRCROOT)/../lib/include/SDL2/SDL2\"",
 					"\"$(SRCROOT)/../lib/pango-1.28.3\"",
 					"\"$(SRCROOT)/../lib/pango-1.28.3/include\"",
-					"\"$(SRCROOT)/../lib/SDL2-2.0.5/include\"",
 					"\"$(SRCROOT)/../lib/SDL_blitpool/include\"",
 					"\"$(SRCROOT)/../lib/freetype-2.4.12/include\"",
 					"\"$(SRCROOT)/../lib/xml2/include\"",
@@ -5210,6 +5098,7 @@
 					"\"$(SRCROOT)/../lib/mikmod\"",
 					"\"$(SRCROOT)/../lib/SDL_image\"",
 					"\"$(SRCROOT)/../lib/iOS_Boost_1_60/libs/boost/ios\"",
+					"\"$(SRCROOT)/../lib\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
