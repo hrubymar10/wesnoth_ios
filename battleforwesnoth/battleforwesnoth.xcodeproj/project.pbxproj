@@ -20,7 +20,6 @@
 		1C069D301EBFC36B001FF584 /* libiconv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C069D091EBFB4DD001FF584 /* libiconv.a */; };
 		1C069D311EBFC36F001FF584 /* libintl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C069D0A1EBFB4DD001FF584 /* libintl.a */; };
 		1C069D341EBFC3C3001FF584 /* iconv_hack.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C069D321EBFC3C3001FF584 /* iconv_hack.c */; };
-		1C0DB91D20686C58001C46F9 /* crypt_blowfish.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C0DB91B20686C58001C46F9 /* crypt_blowfish.c */; };
 		1C0DB91F20686CC9001C46F9 /* base64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C0DB91E20686CC8001C46F9 /* base64.cpp */; };
 		1C14268E1E5A84310044633F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C14268D1E5A84310044633F /* CoreMotion.framework */; };
 		1C178AAE1FA6B42E00707D15 /* player_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C178AAB1FA6B42C00707D15 /* player_info.cpp */; };
@@ -453,7 +452,6 @@
 		1CEF152E1EC022B200C02850 /* horizontal_scrollbar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CEF13E01EC022B100C02850 /* horizontal_scrollbar.cpp */; };
 		1CEF15301EC022B200C02850 /* image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CEF13E21EC022B100C02850 /* image.cpp */; };
 		1CEF15321EC022B200C02850 /* label.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CEF13E51EC022B100C02850 /* label.cpp */; };
-		1CEF15341EC022B200C02850 /* list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CEF13E71EC022B100C02850 /* list.cpp */; };
 		1CEF15361EC022B200C02850 /* listbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CEF13E91EC022B100C02850 /* listbox.cpp */; };
 		1CEF15381EC022B200C02850 /* matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CEF13EB1EC022B100C02850 /* matrix.cpp */; };
 		1CEF153A1EC022B200C02850 /* menu_button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CEF13ED1EC022B100C02850 /* menu_button.cpp */; };
@@ -634,6 +632,7 @@
 		46054A542128DA300083FD71 /* apple_version.mm in Sources */ = {isa = PBXBuildFile; fileRef = 46054A522128DA300083FD71 /* apple_version.mm */; };
 		469365B0215681B000B31412 /* apple_battery_info.mm in Sources */ = {isa = PBXBuildFile; fileRef = 469365A8215681AF00B31412 /* apple_battery_info.mm */; };
 		469365B3215681BE00B31412 /* battery_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 469365B2215681BD00B31412 /* battery_info.cpp */; };
+		4697659C21A6C96900CC5F8E /* crypt_blowfish.c in Sources */ = {isa = PBXBuildFile; fileRef = 4697659A21A6C96900CC5F8E /* crypt_blowfish.c */; };
 		46BED4E22050848B00842FA5 /* WesnothViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BED4E12050848B00842FA5 /* WesnothViewController.storyboard */; };
 		46CB5F8B205485C2008A0DB6 /* WesnothLauchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CB5F8A205485C1008A0DB6 /* WesnothLauchScreen.storyboard */; };
 		46E794802114D18D00404CA2 /* iOS_device_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E794752114D18C00404CA2 /* iOS_device_info.cpp */; };
@@ -864,8 +863,6 @@
 		1C069D6E1EC0087D001FF584 /* controller_base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = controller_base.cpp; path = ../../../../src/controller_base.cpp; sourceTree = "<group>"; };
 		1C069D701EC0087D001FF584 /* countdown_clock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = countdown_clock.cpp; path = ../../../../src/countdown_clock.cpp; sourceTree = "<group>"; };
 		1C069D721EC0087D001FF584 /* cursor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cursor.cpp; path = ../../../../src/cursor.cpp; sourceTree = "<group>"; };
-		1C0DB91B20686C58001C46F9 /* crypt_blowfish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = crypt_blowfish.c; path = ../../../../../src/crypt_blowfish/crypt_blowfish.c; sourceTree = "<group>"; };
-		1C0DB91C20686C58001C46F9 /* crypt_blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = crypt_blowfish.h; path = ../../../../../src/crypt_blowfish/crypt_blowfish.h; sourceTree = "<group>"; };
 		1C0DB91E20686CC8001C46F9 /* base64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = base64.cpp; sourceTree = "<group>"; };
 		1C14268D1E5A84310044633F /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		1C178AAA1FA6B42A00707D15 /* lobby.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lobby.hpp; sourceTree = "<group>"; };
@@ -1749,8 +1746,6 @@
 		1CEF13E41EC022B100C02850 /* integer_selector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = integer_selector.hpp; sourceTree = "<group>"; };
 		1CEF13E51EC022B100C02850 /* label.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = label.cpp; sourceTree = "<group>"; };
 		1CEF13E61EC022B100C02850 /* label.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = label.hpp; sourceTree = "<group>"; };
-		1CEF13E71EC022B100C02850 /* list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = list.cpp; sourceTree = "<group>"; };
-		1CEF13E81EC022B100C02850 /* list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = list.hpp; sourceTree = "<group>"; };
 		1CEF13E91EC022B100C02850 /* listbox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = listbox.cpp; sourceTree = "<group>"; };
 		1CEF13EA1EC022B100C02850 /* listbox.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = listbox.hpp; sourceTree = "<group>"; };
 		1CEF13EB1EC022B100C02850 /* matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matrix.cpp; sourceTree = "<group>"; };
@@ -2102,6 +2097,8 @@
 		469365AF215681AF00B31412 /* apple_battery_info.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = apple_battery_info.hpp; path = ../../../../src/desktop/apple_battery_info.hpp; sourceTree = "<group>"; };
 		469365B1215681BD00B31412 /* battery_info.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = battery_info.hpp; path = ../../../../src/desktop/battery_info.hpp; sourceTree = "<group>"; };
 		469365B2215681BD00B31412 /* battery_info.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = battery_info.cpp; path = ../../../../src/desktop/battery_info.cpp; sourceTree = "<group>"; };
+		4697659921A6C96900CC5F8E /* crypt_blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt_blowfish.h; sourceTree = "<group>"; };
+		4697659A21A6C96900CC5F8E /* crypt_blowfish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypt_blowfish.c; sourceTree = "<group>"; };
 		46BED4E12050848B00842FA5 /* WesnothViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WesnothViewController.storyboard; sourceTree = "<group>"; };
 		46CB5F8A205485C1008A0DB6 /* WesnothLauchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WesnothLauchScreen.storyboard; sourceTree = "<group>"; };
 		46D9C50A2118B6360047AB0A /* revision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = revision.h; path = ../../../../src/revision.h; sourceTree = "<group>"; };
@@ -2162,15 +2159,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C0DB91A20686C46001C46F9 /* crypt_blowfish */ = {
-			isa = PBXGroup;
-			children = (
-				1C0DB91B20686C58001C46F9 /* crypt_blowfish.c */,
-				1C0DB91C20686C58001C46F9 /* crypt_blowfish.h */,
-			);
-			path = crypt_blowfish;
-			sourceTree = "<group>";
-		};
 		1C29BBFB1E5A325600A701E9 /* desktop */ = {
 			isa = PBXGroup;
 			children = (
@@ -3046,8 +3034,6 @@
 				1CEF13E41EC022B100C02850 /* integer_selector.hpp */,
 				1CEF13E51EC022B100C02850 /* label.cpp */,
 				1CEF13E61EC022B100C02850 /* label.hpp */,
-				1CEF13E71EC022B100C02850 /* list.cpp */,
-				1CEF13E81EC022B100C02850 /* list.hpp */,
 				1CEF13E91EC022B100C02850 /* listbox.cpp */,
 				1CEF13EA1EC022B100C02850 /* listbox.hpp */,
 				1CEF13EB1EC022B100C02850 /* matrix.cpp */,
@@ -3628,11 +3614,6 @@
 		3C8A365A160766FD0017F0EE /* battleforwesnoth */ = {
 			isa = PBXGroup;
 			children = (
-				1C8C205F208AB82E00219503 /* chat_log.cpp */,
-				1C8C205E208AB82E00219503 /* chat_log.hpp */,
-				1C0DB91A20686C46001C46F9 /* crypt_blowfish */,
-				1CFF6736204C73FA00773676 /* deprecation.cpp */,
-				1CFF6734204C73F900773676 /* deprecation.hpp */,
 				1CEF10721EC0102C00C02850 /* about.cpp */,
 				1CEF10751EC0106A00C02850 /* about.hpp */,
 				1CEF11241EC0213E00C02850 /* actions */,
@@ -3640,6 +3621,7 @@
 				1CEF11501EC0213F00C02850 /* ai */,
 				1C6695DD1EDCF36000F23301 /* animated.cpp */,
 				1C069D4B1EC00820001FF584 /* animated.hpp */,
+				1C069D4C1EC00820001FF584 /* animated.tpp */,
 				1CA9ABB21FC81B9F00D25658 /* Appirater.h */,
 				1C20DBA91E11F92600D7BE84 /* Appirater.m */,
 				1C069D4D1EC00820001FF584 /* arrow.cpp */,
@@ -3657,6 +3639,8 @@
 				1CEF107B1EC0111600C02850 /* chat_command_handler.hpp */,
 				1C069D5E1EC0087C001FF584 /* chat_events.cpp */,
 				1CEF107C1EC0111600C02850 /* chat_events.hpp */,
+				1C8C205F208AB82E00219503 /* chat_log.cpp */,
+				1C8C205E208AB82E00219503 /* chat_log.hpp */,
 				1C069D601EC0087C001FF584 /* color_range.cpp */,
 				1CEF107D1EC0111600C02850 /* color_range.hpp */,
 				1C069D621EC0087C001FF584 /* color.cpp */,
@@ -3674,8 +3658,11 @@
 				1CEF10851EC0111700C02850 /* controller_base.hpp */,
 				1C069D701EC0087D001FF584 /* countdown_clock.cpp */,
 				1CEF10861EC0111700C02850 /* countdown_clock.hpp */,
+				4697659721A6C96900CC5F8E /* crypt_blowfish */,
 				1C069D721EC0087D001FF584 /* cursor.cpp */,
 				1CEF10871EC0111700C02850 /* cursor.hpp */,
+				1CFF6736204C73FA00773676 /* deprecation.cpp */,
+				1CFF6734204C73F900773676 /* deprecation.hpp */,
 				1C29BBFB1E5A325600A701E9 /* desktop */,
 				1C810323541F41137F70A77B /* display_chat_manager.cpp */,
 				1CEF10881EC01E8300C02850 /* display_chat_manager.hpp */,
@@ -3694,6 +3681,7 @@
 				1CEF0F4E1EC00C7700C02850 /* filesystem_boost.cpp */,
 				1CEF0F4F1EC00C7700C02850 /* filesystem_common.cpp */,
 				1CEF0F501EC00C7700C02850 /* filesystem_sdl.cpp */,
+				1CEF108F1EC01E8300C02850 /* filesystem.hpp */,
 				1CEF10901EC01E8300C02850 /* filter_context.hpp */,
 				1CEF0F5E1EC00CEA00C02850 /* floating_label.cpp */,
 				1CEF10911EC01E8300C02850 /* floating_label.hpp */,
@@ -3725,6 +3713,8 @@
 				1CEF109D1EC01EC000C02850 /* game_launcher.hpp */,
 				1CEF0F711EC00D2600C02850 /* game_state.cpp */,
 				1CEF109F1EC01EC100C02850 /* game_state.hpp */,
+				1CEF104D1EC00F9C00C02850 /* game_version.cpp */,
+				1CEF10F11EC01FFE00C02850 /* game_version.hpp */,
 				1CEF12861EC0222000C02850 /* generators */,
 				1CEF0F861EC00D6400C02850 /* generic_event.cpp */,
 				1CEF10A01EC01EC100C02850 /* generic_event.hpp */,
@@ -3740,8 +3730,6 @@
 				1CEF143A1EC022B100C02850 /* hotkey */,
 				1CEF0F921EC00EA500C02850 /* image_modifications.cpp */,
 				1CEF10A51EC01F0600C02850 /* image_modifications.hpp */,
-				1CEF0F931EC00EA500C02850 /* picture.cpp */,
-				1CEF10A61EC01F0600C02850 /* picture.hpp */,
 				1C810157E87B6FD6D2E9FA6D /* ios */,
 				1CEF0F951EC00EA500C02850 /* joystick.cpp */,
 				1CEF10A81EC01F0600C02850 /* joystick.hpp */,
@@ -3758,6 +3746,8 @@
 				1CEF10B01EC01F0600C02850 /* lua_jailbreak_exception.hpp */,
 				1CEF15CA1EC022DD00C02850 /* map */,
 				1CEF10B11EC01F0600C02850 /* map_command_handler.hpp */,
+				1CEF10011EC00F4400C02850 /* map_settings.cpp */,
+				1CEF10D91EC01FA900C02850 /* map_settings.hpp */,
 				1CEF0F9D1EC00EA600C02850 /* menu_events.cpp */,
 				1CEF10B31EC01F0600C02850 /* menu_events.hpp */,
 				1CEF0F9E1EC00EA600C02850 /* minimap.cpp */,
@@ -3787,6 +3777,8 @@
 				1CEF10C01EC01F4D00C02850 /* persist_manager.hpp */,
 				1CEF0FA91EC00EA600C02850 /* persist_var.cpp */,
 				1CEF10C11EC01F4D00C02850 /* persist_var.hpp */,
+				1CEF0F931EC00EA500C02850 /* picture.cpp */,
+				1CEF10A61EC01F0600C02850 /* picture.hpp */,
 				1CEF0FAA1EC00EA600C02850 /* play_controller.cpp */,
 				1CEF10C21EC01F4D00C02850 /* play_controller.hpp */,
 				1CEF0FAB1EC00EA600C02850 /* playmp_controller.cpp */,
@@ -3834,8 +3826,6 @@
 				1CEF10001EC00F4400C02850 /* seed_rng.cpp */,
 				1CEF10D81EC01FA900C02850 /* seed_rng.hpp */,
 				1CEF16611EC022F900C02850 /* serialization */,
-				1CEF10011EC00F4400C02850 /* map_settings.cpp */,
-				1CEF10D91EC01FA900C02850 /* map_settings.hpp */,
 				1CEF10021EC00F4400C02850 /* show_dialog.cpp */,
 				1CEF10DA1EC01FA900C02850 /* show_dialog.hpp */,
 				1CEF10031EC00F4400C02850 /* side_filter.cpp */,
@@ -3886,8 +3876,6 @@
 				1CEF10EF1EC01FFE00C02850 /* variable_info.hpp */,
 				1CEF104C1EC00F9C00C02850 /* variable.cpp */,
 				1CEF10F01EC01FFE00C02850 /* variable.hpp */,
-				1CEF104D1EC00F9C00C02850 /* game_version.cpp */,
-				1CEF10F11EC01FFE00C02850 /* game_version.hpp */,
 				1CEF104E1EC00F9C00C02850 /* video.cpp */,
 				1CEF10F21EC01FFE00C02850 /* video.hpp */,
 				1CEF10701EC00FC400C02850 /* wesconfig.h */,
@@ -3908,8 +3896,6 @@
 				1CEF10F51EC01FFE00C02850 /* wml_exception.hpp */,
 				1CEF10F61EC01FFE00C02850 /* wml_separators.hpp */,
 				1CEF17531EC0233900C02850 /* xBRZ */,
-				1CEF108F1EC01E8300C02850 /* filesystem.hpp */,
-				1C069D4C1EC00820001FF584 /* animated.tpp */,
 			);
 			path = battleforwesnoth;
 			sourceTree = "<group>";
@@ -4074,6 +4060,16 @@
 				3CD06D201631B67A0014DBBB /* libtremor.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4697659721A6C96900CC5F8E /* crypt_blowfish */ = {
+			isa = PBXGroup;
+			children = (
+				4697659921A6C96900CC5F8E /* crypt_blowfish.h */,
+				4697659A21A6C96900CC5F8E /* crypt_blowfish.c */,
+			);
+			name = crypt_blowfish;
+			path = ../../../../src/crypt_blowfish;
 			sourceTree = "<group>";
 		};
 		46E794742114D11500404CA2 /* iOS_device_info */ = {
@@ -4522,7 +4518,6 @@
 				1CEF14A21EC022B200C02850 /* new_map.cpp in Sources */,
 				1CEF10611EC00F9D00C02850 /* tstring.cpp in Sources */,
 				1CEF169E1EC022F900C02850 /* context.cpp in Sources */,
-				1CEF15341EC022B200C02850 /* list.cpp in Sources */,
 				1CEF167E1EC022F900C02850 /* game_lua_kernel.cpp in Sources */,
 				1C66969B1EDDD39800F23301 /* mouse_action_select.cpp in Sources */,
 				1CEF14CE1EC022B200C02850 /* lua_interpreter.cpp in Sources */,
@@ -4622,6 +4617,7 @@
 				3C5B801816399A2100898722 /* fclist.c in Sources */,
 				1CEF146A1EC022B200C02850 /* timer.cpp in Sources */,
 				3C5B801916399A2100898722 /* fcmatch.c in Sources */,
+				4697659C21A6C96900CC5F8E /* crypt_blowfish.c in Sources */,
 				1CEF15601EC022B200C02850 /* text_box_base.cpp in Sources */,
 				1C6696841EDDD2C800F23301 /* action.cpp in Sources */,
 				1CEF14661EC022B200C02850 /* placer.cpp in Sources */,
@@ -4790,7 +4786,6 @@
 				1CEF14821EC022B200C02850 /* campaign_selection.cpp in Sources */,
 				1CEF11D21EC0213F00C02850 /* ai.cpp in Sources */,
 				1CEF12181EC0213F00C02850 /* testing.cpp in Sources */,
-				1C0DB91D20686C58001C46F9 /* crypt_blowfish.c in Sources */,
 				1CEF12AE1EC0222000C02850 /* manager.cpp in Sources */,
 				1CEF11C21EC0213F00C02850 /* vision.cpp in Sources */,
 				1CEF0FE31EC00EA700C02850 /* play_controller.cpp in Sources */,
