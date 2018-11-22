@@ -604,7 +604,6 @@
 		3C5B801F16399A2100898722 /* fcxml.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB962D162932CC007549E6 /* fcxml.c */; };
 		3C5B802016399A2100898722 /* ftglue.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB962E162932CC007549E6 /* ftglue.c */; };
 		3C5B804616399A2100898722 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97C11A1631CAC400BFE895 /* libjpeg.a */; };
-		3C5B804716399A2100898722 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97C13C1631CB0D00BFE895 /* libpng.a */; };
 		3C5B804816399A2100898722 /* libpixman.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97C0331631C36200BFE895 /* libpixman.a */; };
 		3C5B804916399A2100898722 /* libpango.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97BF9C1631BC1B00BFE895 /* libpango.a */; };
 		3C5B804A16399A2100898722 /* libmikmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97BF251631BB0800BFE895 /* libmikmod.a */; };
@@ -634,6 +633,7 @@
 		4698209121A6F2E900B81C61 /* libSDL2_ttf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4698208D21A6F2E900B81C61 /* libSDL2_ttf.a */; };
 		4698209221A6F2E900B81C61 /* libSDL2_image.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4698208E21A6F2E900B81C61 /* libSDL2_image.a */; };
 		469820D621A6FA5E00B81C61 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469820D521A6FA5D00B81C61 /* GameController.framework */; };
+		469820D821A6FB9200B81C61 /* libpng16.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 469820D721A6FB9200B81C61 /* libpng16.a */; };
 		46BED4E22050848B00842FA5 /* WesnothViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BED4E12050848B00842FA5 /* WesnothViewController.storyboard */; };
 		46CB5F8B205485C2008A0DB6 /* WesnothLauchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CB5F8A205485C1008A0DB6 /* WesnothLauchScreen.storyboard */; };
 		46E794802114D18D00404CA2 /* iOS_device_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E794752114D18C00404CA2 /* iOS_device_info.cpp */; };
@@ -668,13 +668,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 3C97C1041631CAC300BFE895;
 			remoteInfo = jpeg;
-		};
-		3C97C13B1631CB0D00BFE895 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3C97C1371631CB0C00BFE895 /* png.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3C97C1261631CB0C00BFE895;
-			remoteInfo = png;
 		};
 		3CBF22BF1644C079008D46F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -724,13 +717,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 3CBF22A91644C078008D46F4;
 			remoteInfo = ogg;
-		};
-		A69DB68D196A541400230816 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3C97C1371631CB0C00BFE895 /* png.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 3C97C1251631CB0C00BFE895;
-			remoteInfo = png;
 		};
 		A69DB68F196A541400230816 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -2019,7 +2005,6 @@
 		3C97BF971631BC1A00BFE895 /* pango.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pango.xcodeproj; path = lib/pango/pango.xcodeproj; sourceTree = "<group>"; };
 		3C97C02E1631C36000BFE895 /* pixman.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pixman.xcodeproj; path = lib/pixman/pixman.xcodeproj; sourceTree = "<group>"; };
 		3C97C1151631CAC300BFE895 /* jpeg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = jpeg.xcodeproj; path = lib/jpeg/jpeg.xcodeproj; sourceTree = "<group>"; };
-		3C97C1371631CB0C00BFE895 /* png.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = png.xcodeproj; path = lib/png/png.xcodeproj; sourceTree = "<group>"; };
 		3CA8C957160EB0A2004CD2C4 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../../images; sourceTree = "<group>"; };
 		3CBF22BB1644C078008D46F4 /* ogg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ogg.xcodeproj; path = lib/ogg/ogg.xcodeproj; sourceTree = "<group>"; };
 		3CC9B8951614AD4800D1110E /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sounds; path = ../../../sounds; sourceTree = "<group>"; };
@@ -2066,6 +2051,7 @@
 		4698208D21A6F2E900B81C61 /* libSDL2_ttf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2_ttf.a; path = ../lib/libSDL2_ttf.a; sourceTree = "<group>"; };
 		4698208E21A6F2E900B81C61 /* libSDL2_image.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2_image.a; path = ../lib/libSDL2_image.a; sourceTree = "<group>"; };
 		469820D521A6FA5D00B81C61 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		469820D721A6FB9200B81C61 /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = ../lib/libpng16.a; sourceTree = "<group>"; };
 		46BED4E12050848B00842FA5 /* WesnothViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WesnothViewController.storyboard; sourceTree = "<group>"; };
 		46CB5F8A205485C1008A0DB6 /* WesnothLauchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WesnothLauchScreen.storyboard; sourceTree = "<group>"; };
 		46D9C50A2118B6360047AB0A /* revision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = revision.h; path = ../../../../src/revision.h; sourceTree = "<group>"; };
@@ -2093,7 +2079,6 @@
 				1C20DB9D1E11E23B00D7BE84 /* libboost.a in Frameworks */,
 				A69DB6D4196A676100230816 /* libogg.a in Frameworks */,
 				3C5B804616399A2100898722 /* libjpeg.a in Frameworks */,
-				3C5B804716399A2100898722 /* libpng.a in Frameworks */,
 				3C5B804816399A2100898722 /* libpixman.a in Frameworks */,
 				1C069D2E1EBFC365001FF584 /* libgobject-2.0.a in Frameworks */,
 				3C5B804916399A2100898722 /* libpango.a in Frameworks */,
@@ -2121,6 +2106,7 @@
 				3C5B805716399A2100898722 /* CoreAudio.framework in Frameworks */,
 				3C5B805816399A2100898722 /* AudioToolbox.framework in Frameworks */,
 				3C5B805916399A2100898722 /* QuartzCore.framework in Frameworks */,
+				469820D821A6FB9200B81C61 /* libpng16.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3479,7 +3465,6 @@
 			isa = PBXGroup;
 			children = (
 				3CBF22BB1644C078008D46F4 /* ogg.xcodeproj */,
-				3C97C1371631CB0C00BFE895 /* png.xcodeproj */,
 				3C97C1151631CAC300BFE895 /* jpeg.xcodeproj */,
 				3C97C02E1631C36000BFE895 /* pixman.xcodeproj */,
 				3C97BF971631BC1A00BFE895 /* pango.xcodeproj */,
@@ -3512,6 +3497,7 @@
 		3C8A3653160766FD0017F0EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				469820D721A6FB9200B81C61 /* libpng16.a */,
 				469820D521A6FA5D00B81C61 /* GameController.framework */,
 				4698208E21A6F2E900B81C61 /* libSDL2_image.a */,
 				4698208B21A6F2E800B81C61 /* libSDL2_mixer.a */,
@@ -3876,14 +3862,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3C97C1381631CB0C00BFE895 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3C97C13C1631CB0D00BFE895 /* libpng.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		3CBF22BC1644C078008D46F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -4032,7 +4010,6 @@
 			);
 			dependencies = (
 				A69DB68A196A541400230816 /* PBXTargetDependency */,
-				A69DB68E196A541400230816 /* PBXTargetDependency */,
 				A69DB690196A541400230816 /* PBXTargetDependency */,
 				A69DB692196A541400230816 /* PBXTargetDependency */,
 				A69DB694196A541400230816 /* PBXTargetDependency */,
@@ -4106,10 +4083,6 @@
 					ProjectRef = 3C97C02E1631C36000BFE895 /* pixman.xcodeproj */;
 				},
 				{
-					ProductGroup = 3C97C1381631CB0C00BFE895 /* Products */;
-					ProjectRef = 3C97C1371631CB0C00BFE895 /* png.xcodeproj */;
-				},
-				{
 					ProductGroup = 3CD06D1C1631B6780014DBBB /* Products */;
 					ProjectRef = 3CD06D1B1631B6780014DBBB /* tremor.xcodeproj */;
 				},
@@ -4152,13 +4125,6 @@
 			fileType = archive.ar;
 			path = libjpeg.a;
 			remoteRef = 3C97C1191631CAC400BFE895 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3C97C13C1631CB0D00BFE895 /* libpng.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libpng.a;
-			remoteRef = 3C97C13B1631CB0D00BFE895 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		3CBF22C01644C079008D46F4 /* libogg.a */ = {
@@ -4819,11 +4785,6 @@
 			isa = PBXTargetDependency;
 			name = ogg;
 			targetProxy = A69DB689196A541400230816 /* PBXContainerItemProxy */;
-		};
-		A69DB68E196A541400230816 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = png;
-			targetProxy = A69DB68D196A541400230816 /* PBXContainerItemProxy */;
 		};
 		A69DB690196A541400230816 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
